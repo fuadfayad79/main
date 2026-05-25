@@ -1,0 +1,4 @@
+{
+  "autoscript": "IBMCFGTRCK.NEW",
+  "source": "'''------------------------------------------------------------------------------------------------------------\nDescription: Set the default value of the project reference number attribute from the header\nModification History:\nDate            Version                      Author                        Comment\n===================================================================================================\n2024-04-29      1.0                         IBM/Ammar Younes            Initial version \n\n--------------------------------------------------------------------------------------------------------------'''\n\nowner=mbo.getOwner()\nif owner is not None:\n    projrefnumber=owner.getString(\"projrefnumber\")\n    mbo.setValue(\"projrefnumber\", projrefnumber)"
+}

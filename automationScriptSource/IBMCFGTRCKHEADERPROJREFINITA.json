@@ -1,0 +1,4 @@
+{
+  "autoscript": "IBMCFGTRCKHEADERPROJREFINITA",
+  "source": "'''------------------------------------------------------------------------------------------------------------\nDescription: set the initial values for non-persistent fields.\nModification History:\nDate            Version                      Author                        Comment\n===================================================================================================\n2024-04-30      1.0                         IBM/Samer Al Fakih           Inital version \n\n--------------------------------------------------------------------------------------------------------------'''\n\nlines =mbo.getMboSet(\"IBMCFGTRCK\") \nif not mbo.toBeAdded() and lines.getMbo(0) is not None:\n    thisvalue_readonly= True"
+}

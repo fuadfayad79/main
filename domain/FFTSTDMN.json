@@ -1,0 +1,46 @@
+{
+  "member": [
+    {
+      "maxtype_description": "AlphaNumeric",
+      "maxtype": "ALN",
+      "nevercache": false,
+      "internal": 0,
+      "alndomain_collectionref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/alndomainvalue",
+      "length": 50,
+      "description": "Test Domain",
+      "scale": 0,
+      "alndomain": [
+        {
+          "valueid": "FFTSTDMN|test1",
+          "localref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/alndomainvalue/0-4593",
+          "href": "http://childkey#TUFYRE9NQUlOL0FMTkRPTUFJTi9GRlRTVERNTi9_TlVMTH4vfk5VTEx_L3Rlc3Qx",
+          "value": "test1",
+          "alndomainid": 4593
+        },
+        {
+          "valueid": "FFTSTDMN|test2",
+          "localref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/alndomainvalue/1-4594",
+          "href": "http://childkey#TUFYRE9NQUlOL0FMTkRPTUFJTi9GRlRTVERNTi9_TlVMTH4vfk5VTEx_L3Rlc3Qy",
+          "value": "test2",
+          "alndomainid": 4594
+        }
+      ],
+      "maxdomvalcond_collectionref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/maxdomvalcond",
+      "synonymdomain_collectionref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/synonymdomain",
+      "domainid": "FFTSTDMN",
+      "numrangedomain_collectionref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/rangedomsegment",
+      "numericdomain_collectionref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/numdomainvalue",
+      "domaintype": "ALN",
+      "domaintype_description": "AlphaNumeric Domain",
+      "maxdomainid": 1588,
+      "href": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-",
+      "maxtabledomain_collectionref": "http://maximositeip/maximo/api/os/ibmdomain/_RkZUU1RETU4-/maxtabledomain",
+      "internal_description": "The domain is not internal, can be modified and is localizable",
+      "_action": "AddChange"
+    }
+  ],
+  "href": "http://maximositeip/maximo/api/os/IBMDOMAIN",
+  "responseInfo": {
+    "href": "http://192.168.2.245:80/maximo/api/os/IBMDOMAIN?lean=1&oslc.select=*&oslc.where=domainid=\"FFTSTDMN\""
+  }
+}
